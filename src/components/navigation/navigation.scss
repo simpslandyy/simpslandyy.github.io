@@ -1,0 +1,30 @@
+@import '@styles/abstracts/_colors.scss';
+
+.navigation {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+}
+
+.navigation__list {
+  list-style: none;
+  display: inline-flex;
+  margin: 1rem 0 0 0;
+
+  li {
+    margin: 0 1rem 0 1rem;
+  }
+}
+
+a:hover {
+  color: $primary-yellow !important;
+}
+
+a:link,
+a:visited {
+  color: $white;
+}
+
