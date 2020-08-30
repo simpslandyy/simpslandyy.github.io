@@ -1,0 +1,44 @@
+@import '@styles/abstracts/_colors.scss';
+
+.navigation {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    background-color: $cream;
+    width: 52rem;
+    border-radius: 2px;
+    height: 2rem;
+    box-shadow: 5px 5px 0 $black;
+    font-family: 'Nunito ExtraLight';
+  }
+}
+
+.navigation__current {  
+  a:active,
+  a:visited,
+  a:link {
+    color: $primary-yellow;
+  }
+}
+
+.navigation__list {
+  list-style: none;
+  display: inline-flex;
+  margin: 0 auto;
+
+  li {
+    margin: 0 3rem 0 3rem;
+  }
+  
+  li:hover {
+    a:active,
+    a:visited,
+    a:link {
+      color: $primary-yellow;
+      // transition: color ease 1s;
+    }
+  }
+}
+

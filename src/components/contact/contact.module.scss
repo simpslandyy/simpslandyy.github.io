@@ -1,0 +1,67 @@
+@import '@styles/abstracts/_colors.scss';
+
+.contact_card__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_card__link {
+  display: block;
+}
+
+.contact_card {
+  width: 10rem;
+  height: 20rem;
+  
+  &__gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    opacity: .75;
+    background-size: cover;
+    transition: opacity ease 1s;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    color: $white;
+    opacity: .50;
+    transition: opacity ease 1s;
+  }
+}
+
+.contact_card__gradient:hover {
+  opacity: 100%;
+
+  > .contact_card__title {
+    opacity: 100%;
+  }
+}
+
+.insta {
+  > .contact_card__gradient {
+    background-image: url('~@assets/images/insta.png');
+  }
+}
+
+.twitter {
+  > .contact_card__gradient {
+    background-image: url('~@assets/images/twitter.png');
+  }
+}
+
+.medium {
+  > .contact_card__gradient {
+    background-image: url('~@assets/images/medium.png');
+  }
+}
+
+.linkedin {
+  > .contact_card__gradient {
+    background-image: url('~@assets/images/linkedin.png');
+  }
+}

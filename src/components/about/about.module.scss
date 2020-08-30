@@ -1,0 +1,21 @@
+@import '@styles/abstracts/_colors.scss';
+
+.about{
+  &__wrapper {
+    display:flex;
+    height: 333px;
+  }
+
+  &__img {
+    width: 250px;
+    height: auto;
+  }
+
+  &__body {
+    font-size: 16px;
+    margin-left: 1rem;
+    overflow-y: scroll;
+  }
+
+}
+

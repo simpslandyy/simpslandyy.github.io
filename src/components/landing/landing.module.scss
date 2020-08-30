@@ -1,0 +1,21 @@
+@import '@styles/abstracts/_colors.scss';
+
+.landing_hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background: url('~@assets/images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding: 7rem;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
