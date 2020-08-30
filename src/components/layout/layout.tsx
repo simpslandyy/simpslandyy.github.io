@@ -10,7 +10,6 @@ interface Props {
   classes?: string
 }
 const Layout: React.FunctionComponent<Props> = ({ id, title, classes, children }) => {
-
   return (
     <section id={id} className={styles.section__wrapper}> 
       <div className={cn(styles.section__content, classes)} > 

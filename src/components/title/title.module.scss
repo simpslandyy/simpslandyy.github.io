@@ -26,23 +26,27 @@
 
     p {
       color: $off-black;
-      line-height: 0.3em;
+      line-height: 1.5rem;
     }
   }
 
   #love {
     color: $primary-rouge;
+    text-transform: uppercase;
   }
   
   #indulge {
     color: $primary-pink;
+    text-transform: uppercase;
   }
 
   #inspire {
     color: $primary-yellow;
+    text-transform: uppercase;
   }
   
   #create {
     color: $primary-green;
+    text-transform: uppercase;
   }
 }
