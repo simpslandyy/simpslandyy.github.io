@@ -1,31 +1,26 @@
 import React from 'react'
 import Layout from '@components/layout/layout'
 import styles from './title.module.scss'
+import data from '../../../content/data.md'
 
-const Title = () => (
-  <Layout id='home' classes={styles.title__wrapper}>
-      <div className={styles.title__wrapper_row}>
-          <h1 id={styles.love}> LOVE.</h1> 
-          <h1 id={styles.inspire}> INSPIRE. </h1>
-      </div>
-      <div className={styles.title__wrapper_row}> 
-          <h1 id={styles.create}> CREATE.</h1> 
-          <h1 id={styles.indulge}> INDULGE.</h1>
-      </div>
-      <div className={styles.title__wrapper_statement}>
-          <p> Maybe put a quote here, something about my brand mission.</p>
-          <p> Lorem ipsum, something is more about brand mission. </p>
-      </div>
-  </Layout>
-)
+const Title = () => {
+  const { attributes: { title } } = data
 
-
-// TD: REMOVE AFTER INTEGRATING CMS
-const navItems = [
-  {label: 'About Me', uri: '' },
-  {label: 'Services', uri: '' },
-  {label: 'Blog', uri: '' },
-  {label: 'Contact', uri: '' }
-]
+  return ( 
+    <Layout id='home' classes={styles.title__wrapper}>
+        <div className={styles.title__wrapper_row}>
+            <h1 id={styles.love}> {title.A} </h1> 
+            <h1 id={styles.inspire}> {title.B} </h1>
+        </div>
+        <div className={styles.title__wrapper_row}> 
+            <h1 id={styles.create}> {title.C} </h1> 
+            <h1 id={styles.indulge}> {title.D} </h1>
+        </div>
+        <div className={styles.title__wrapper_statement}>
+            <p> {title.sub} </p>
+        </div>
+    </Layout>
+  )
+}
 
 export default Title;
