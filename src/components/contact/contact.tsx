@@ -35,17 +35,17 @@ const Contact: React.FunctionComponent = () => {
         <ContactCard 
           label='Medium' 
           classes={styles.medium}
-          uri='http://www.instagram.com/simpslandyy'
+          uri='https://medium.com/@simp.lyy'
           />
         <ContactCard 
           label='LinkedIn'
           classes={styles.linkedin}
-          uri='http://www.instagram.com/simpslandyy'
+          uri='https://www.linkedin.com/in/simpsly/'
           />
         <ContactCard 
           label='Twitter'
           classes={styles.twitter}
-          uri='http://www.instagram.com/simpslandyy'
+          uri='https://twitter.com/simp_lyy'
           />
       </div>  
     </Layout>
