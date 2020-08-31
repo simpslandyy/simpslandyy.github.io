@@ -1,0 +1,26 @@
+@import '@styles/abstracts/_colors.scss',
+        '@styles/abstracts/_breakpoints.scss';
+
+.section{
+  &__wrapper {
+    // padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  &__content {
+    background-color: $cream;
+    box-shadow: 5px 5px 3px $black;
+    position: relative;
+    // bottom: 6rem;
+    padding: 3rem;
+    width: 52rem;
+    height: 27rem;
+  }
+
+  &__title {
+    justify-content: flex-end;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+}

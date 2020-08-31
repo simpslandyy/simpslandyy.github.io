@@ -1,0 +1,48 @@
+@import '@styles/abstracts/_colors.scss';
+@import '@styles/abstracts/_breakpoints.scss';
+
+.title__wrapper {
+  padding: 6rem;
+  h1 {
+    font-size: 80px;
+    line-height: 1em;
+    text-align: left;
+    margin: 0 0 0 1rem;
+    text-shadow: 1px 1px 1px $off-black;
+
+    @include phone {
+      font-size: 40px;
+    }
+  }
+  
+  &_row {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  &_statement {
+    margin-top: 1.5rem;
+    text-align: center;
+
+    p {
+      color: $off-black;
+      line-height: 0.3em;
+    }
+  }
+
+  #love {
+    color: $primary-rouge;
+  }
+  
+  #indulge {
+    color: $primary-pink;
+  }
+
+  #inspire {
+    color: $primary-yellow;
+  }
+  
+  #create {
+    color: $primary-green;
+  }
+}
