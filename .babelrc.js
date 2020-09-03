@@ -1,11 +1,8 @@
-const env = require('./env-config')
 
 module.exports = {
-	
 	"presets": ["next/babel"], // if you're using nextJS, this preset contains everything
 	"plugins": [
 		"transform-define",
-		env,
 		[
 			"module-resolver", // great for creating aliases for a project
 		{
