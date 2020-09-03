@@ -3,7 +3,6 @@ const withImages = require('next-images')
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = withImages({
-  assetPrefix: !debug ? '/simpslandyy.github.io/' : '',
   webpack: (config) => {
     config.module.rules.push(
       {
@@ -11,6 +10,7 @@ module.exports = withImages({
         use: 'frontmatter-markdown-loader'
       }
     )
+    config.assetPrefix = !debug ? '/simpslandyy.github.io/' : ''
 
     return config
   },
