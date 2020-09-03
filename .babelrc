@@ -4,6 +4,8 @@
 	"plugins": [
 		[
 			"module-resolver", // great for creating aliases for a project
+			"transform-define",
+			"./env-config.js"
 		{
 			"root": ["./"],	
 			"alias": { // you’ll also need to add these aliases in tsconfig
