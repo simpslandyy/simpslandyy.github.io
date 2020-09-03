@@ -5,8 +5,9 @@ title:
   B: "inpire."
   C: "create."
   D: "indulge."
-  sub: "Maybe put a quote here, something about my brand mission.\ 
-        Lorem ipsum, something is more about brand mission."
+  sub: "\"The most <b>beautiful</b> thing about life 
+            is that no matter <p> what happened to you in the past, \
+            you can <i>always</i> begin again.\" <i>Dhiman</i> </p>"
 about:
   description: "\
     <b>Landy Simpson is a graduate from the University of Toronto with a \

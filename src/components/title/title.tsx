@@ -17,7 +17,7 @@ const Title = () => {
             <h1 id={styles.indulge}> {title.D} </h1>
         </div>
         <div className={styles.title__wrapper_statement}>
-            <p> {title.sub} </p>
+            <p dangerouslySetInnerHTML={{ __html: title.sub }} />
         </div>
     </Layout>
   )
