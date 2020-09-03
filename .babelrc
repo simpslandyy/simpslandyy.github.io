@@ -1,6 +1,6 @@
 {
 	
-	"presets": ["@babel/preset-env", "@babel/preset-react"], // if you're using nextJS, this preset contains everything
+	"presets": ["next/babel"], // if you're using nextJS, this preset contains everything
 	"plugins": [
 		"transform-define",
 		"./env-config.js",
