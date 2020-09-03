@@ -1,11 +1,14 @@
 {
-  "name": "blog-v2",
+  "homepage": "http://simpslandyy.github.io/simpslandyy.github.io",
+  "name": "simpslandyy.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
@@ -34,6 +37,7 @@
     "eslint-plugin-react": "^7.20.6",
     "file-loader": "^6.0.0",
     "frontmatter-markdown-loader": "^3.6.0",
+    "gh-pages": "^3.1.0",
     "postcss-preset-env": "^6.7.0",
     "typescript": "^4.0.2"
   }
