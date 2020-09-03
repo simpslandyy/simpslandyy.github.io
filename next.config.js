@@ -3,7 +3,7 @@ const withImages = require('next-images')
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = withImages({
-  assetPrefix: !debug ? '/alpha' : '',
+  assetPrefix: !debug ? '/' : '',
   webpack: (config) => {
     config.module.rules.push(
       {
