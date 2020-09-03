@@ -3,9 +3,9 @@
 	"presets": ["next/babel"], // if you're using nextJS, this preset contains everything
 	"plugins": [
 		[
-			"module-resolver", // great for creating aliases for a project
 			"transform-define",
 			"./env-config.js",
+			"module-resolver", // great for creating aliases for a project
 		{
 			"root": ["./"],	
 			"alias": { // you’ll also need to add these aliases in tsconfig
