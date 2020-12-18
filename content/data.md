@@ -2,7 +2,7 @@
 date: 2019-03-17T19:31:20.591Z
 title:
   A: "love."
-  B: "inpire."
+  B: "inspire."
   C: "create."
   D: "indulge."
   sub: "\"The most <b>beautiful</b> thing about life 
@@ -16,17 +16,15 @@ about:
     <br>
     Her experience in \
     front-end development using frameworks such as <b>React and Vue</b>, \
-    along with her eye for design allow her to create riveting web applications. \
-    However, her multiple work experiences have primed her to learn quickly adapt to new programming languages, and frameworks. She's a natural problem solver and enjoys taking on new exciting challenges.
+    allow her to create riveting web applications. \
+    Landy is a natural problem solver and enjoys taking on new and exciting challenges.
     <br>
     <br>
     Aside from dev work, Landy writes inspiring and thought provoking content around her \
-    experiences as a <b> first-generation Afro-Carribean-Canadian woman around topics such as education,\
-    relationships, and self-love. </b> \
+    experiences as a first-generation Afro-Carribean-Canadian woman. Topics include race and the black diaspora, software development,\ relationships, investment and mental health.\ 
     <br>
     <br>
-    Her challenges growing up as a first generation Canadian, a person of colour, \
-    and a woman in a male dominated industry, Landy aspires to:
+    Landy aspires to:
     <br>
     <ul> 
       <li> create safe spaces to engage in vulnerable conversations around womanhood, and blackness </li>
